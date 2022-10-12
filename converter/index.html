@@ -11,11 +11,16 @@
 <body>
   
   
-  <input class="inputDecimal" type="number"  id="decimal">
+  <input 
+  class="inputDecimal"
+   type="number"  
+   id="decimal" 
+   onchange="converter(this.value)"
+   >
 
   <p id="arrow">&rArr;</p>
   
-  <p id="binary"></p>
+  <p id="binary">123</p>
 
   <script src="script/converter.js"></script>
 </body>

@@ -43,10 +43,11 @@ body {
   height: 45px;
   width: 180px;
   display: flex;
+
+  align-items: center;
   
   border: rgb(31, 200, 200) solid 1px;
   padding-left: 10px;
-  outline: none;
 }
 
 #arrow {
