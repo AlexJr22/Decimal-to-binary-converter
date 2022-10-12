@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(31, 31, 45);
+  color: rgb(31, 200, 200);
+
+  display: flex;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 2em;
+}
+
+.container {
+  background: rgb(31, 200, 200);
+
+  border-radius: 5px;
+  
+  height: 45px;
+  width: 180px;
+  display: flex;
+  
+  border: rgb(31, 200, 200) solid 1px;
+  padding-left: 10px;
+  outline: none;
+}
+.container:focus {
+  border: rgb(0, 100, 100) solid 2px;
+}
+
+p {
+  font-size: 2em;
+}
