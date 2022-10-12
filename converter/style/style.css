@@ -52,6 +52,7 @@ body {
 
 #arrow {
   font-size: 2em;
+  transform: translateY(10px);
 }
 
 input::-webkit-inner-spin-button {

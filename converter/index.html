@@ -9,18 +9,23 @@
   <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-  
-  
-  <input 
-  class="inputDecimal"
-   type="number"  
-   id="decimal" 
-   onchange="converter(this.value)"
-   >
 
+  <div>
+    <p>decimal:</p>
+    <input 
+    class="inputDecimal"
+    type="number"  
+    id="decimal" 
+    onchange="converter(this.value)"
+    >
+  </div>
+  
   <p id="arrow">&rArr;</p>
   
-  <p id="binary">123</p>
+  <div>
+    <p>binary:</p>
+    <p id="binary"></p>
+  </div>
 
   <script src="script/converter.js"></script>
 </body>
